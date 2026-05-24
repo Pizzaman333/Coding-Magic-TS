@@ -1,0 +1,28 @@
+// Default (Light Theme)
+:root {
+  --bg-primary: #ffffff;
+  --bg-secondary: #f4f4f4;
+  --text-primary: #333333;
+  --text-secondary: #666666;
+  --accent-color: #007bff;
+  --border-color: #dddddd;
+}
+
+// Dark Theme
+[data-theme="dark"] {
+  --bg-primary: #121212;
+  --bg-secondary: #1e1e1e;
+  --text-primary: #ffffff;
+  --text-secondary: #aaaaaa;
+  --accent-color: #3b82f6;
+  --border-color: #333333;
+}
+
+// Global styles
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
+}
