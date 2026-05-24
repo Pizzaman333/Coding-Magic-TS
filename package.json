@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://pizzaman333.github.io/Coding-Magic-TS/",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
